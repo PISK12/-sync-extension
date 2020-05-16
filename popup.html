@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width" name="viewport">
+    <title>Title</title>
+</head>
+<body>
+<div id="container-empty-token">
+    <label>Token
+        <input id="input-token" type="text" maxlength="16" minlength="16">
+    </label>
+    <button id="button-save-token">Save Token</button>
+    <button id="button-get-token">Get New Token</button>
+</div>
+<div id="container-token" style="display: none">
+    <button id="button-save">Save</button>
+    <button id="button-sync">Sync</button>
+    <ul id="url-list"></ul>
+</div>
+<script src="content_script.js"></script>
+</body>
+</html>
